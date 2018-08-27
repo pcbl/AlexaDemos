@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27924.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRobot", "MyRobot\MyRobot.csproj", "{74A26B8A-0947-4D51-81D3-F44C9AE1ABF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRobot.Agent", "MyRobot.Agent\MyRobot.Agent.csproj", "{42B6E5B9-DA50-4333-A8DC-02455C7321F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRobot.Common", "MyRobot.Common\MyRobot.Common.csproj", "{BB9EF898-4558-491E-B73D-06518627F388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{74A26B8A-0947-4D51-81D3-F44C9AE1ABF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74A26B8A-0947-4D51-81D3-F44C9AE1ABF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74A26B8A-0947-4D51-81D3-F44C9AE1ABF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B6E5B9-DA50-4333-A8DC-02455C7321F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B6E5B9-DA50-4333-A8DC-02455C7321F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B6E5B9-DA50-4333-A8DC-02455C7321F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B6E5B9-DA50-4333-A8DC-02455C7321F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9EF898-4558-491E-B73D-06518627F388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9EF898-4558-491E-B73D-06518627F388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9EF898-4558-491E-B73D-06518627F388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9EF898-4558-491E-B73D-06518627F388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
