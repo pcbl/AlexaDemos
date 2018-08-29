@@ -1,10 +1,16 @@
 ﻿using Microsoft.ServiceBus.Messaging;
 
 
-namespace MyRobot
+namespace MyRobot.ServiceBus
 {
     public class TopicHelper<MessageType>
     {
+        /*  Usage Sample
+            var topicHelper = new TopicHelper<StatusMessage>(
+                                    System.Environment.GetEnvironmentVariable("ServiceBusConnectionString", System.EnvironmentVariableTarget.Process),
+                                    System.Environment.GetEnvironmentVariable("TeamCityTopicName", System.EnvironmentVariableTarget.Process));
+            topicHelper.Send(this);*/
+
         private string _connectionString;
         private string _topicName;
         private static TopicClient _topicClient;

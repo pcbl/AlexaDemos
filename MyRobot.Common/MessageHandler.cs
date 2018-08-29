@@ -1,12 +1,13 @@
 ﻿using Alexa.NET;
 using Alexa.NET.Request.Type;
 using Alexa.NET.Response;
+using MyRobot.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 
-namespace MyRobot.Common
+namespace MyRobot
 {
     public class MessageHandler
     {

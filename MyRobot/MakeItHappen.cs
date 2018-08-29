@@ -1,6 +1,3 @@
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Threading.Tasks;
 using Alexa.NET;
 using Alexa.NET.Request;
@@ -9,7 +6,6 @@ using Alexa.NET.Response;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Azure.WebJobs.Host;
-using MyRobot.Common;
 
 namespace MyRobot
 {
@@ -34,7 +30,7 @@ namespace MyRobot
         private static SkillResponse GetDefault()
         {
             // create the speech response - cards still need a voice response
-            var speech = new Alexa.NET.Response.SsmlOutputSpeech();
+            var speech = new SsmlOutputSpeech();
             speech.Ssml = "<speak>Welcome to MyRobot! Your wish is an order.</speak>";
 
             // create the card response
