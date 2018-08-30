@@ -36,6 +36,9 @@
     <Reference Include="Alexa.NET, Version=1.5.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Alexa.NET.1.5.4\lib\netstandard1.6\Alexa.NET.dll</HintPath>
     </Reference>
+    <Reference Include="DuoVia.FuzzyStrings, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FuzzyStrings.NetStandard.1.0.1\lib\net40\DuoVia.FuzzyStrings.dll</HintPath>
+    </Reference>
     <Reference Include="EasyHttp, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EasyHttp.1.7.0\lib\net40\EasyHttp.dll</HintPath>
     </Reference>
@@ -136,7 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
