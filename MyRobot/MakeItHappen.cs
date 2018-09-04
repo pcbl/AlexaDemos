@@ -17,13 +17,14 @@ namespace MyRobot
             new string[] { "get", "post" }, Route = null)]
             SkillRequest req, TraceWriter log)
         {            
+
             var intent = req.Request as IntentRequest;
             if (intent!=null)
             {
                 MessageHandler handler = new MessageHandler();
                 return handler.Handle(intent);               
             }
-
+             
             return GetDefault();
         }
 
