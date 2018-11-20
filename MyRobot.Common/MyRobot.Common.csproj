@@ -130,6 +130,8 @@
   <ItemGroup>
     <Compile Include="Alexa\Ssml.cs" />
     <Compile Include="Common\BaseMessage.cs" />
+    <Compile Include="Joker\JokeMessage.cs" />
+    <Compile Include="Joker\JokesRepository.cs" />
     <Compile Include="TeamCity\StatusMessage.cs" />
     <Compile Include="Common\IMessage.cs" />
     <Compile Include="Common\IMessageIntent.cs" />
