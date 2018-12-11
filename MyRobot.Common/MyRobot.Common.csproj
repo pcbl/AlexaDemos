@@ -129,9 +129,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alexa\Ssml.cs" />
+    <Compile Include="Appointment\Appointment.cs" />
+    <Compile Include="Appointment\AppointmentMessage.cs" />
     <Compile Include="Common\BaseMessage.cs" />
     <Compile Include="Joker\JokeMessage.cs" />
     <Compile Include="Joker\JokesRepository.cs" />
+    <Compile Include="ServiceBus\QueueHelper.cs" />
     <Compile Include="TeamCity\StatusMessage.cs" />
     <Compile Include="Common\IMessage.cs" />
     <Compile Include="Common\IMessageIntent.cs" />
